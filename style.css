@@ -14,7 +14,6 @@
 .bb{
     color: wheat;
     margin-bottom: 20px;
-    position: relative;
 }
 
 .bb button{
@@ -29,8 +28,6 @@
     align-items: center;
     justify-content: center;
     transform: skewX(-20deg);
-    z-index: 2;
-    position: relative;
     border: none;
 }
 
