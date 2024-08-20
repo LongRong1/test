@@ -76,7 +76,5 @@
     border-radius: 5px;
     text-align: center;
     transform: skewX(-20deg);
-    position: absolute;
-    top: 0;
-    z-index: 1;
+    display: none;
 }
