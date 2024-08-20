@@ -63,5 +63,6 @@ dat.addEventListener('click',()=>{
     let a = b
     b = 0
     ip.value = ''
+    ip.style.display = 'none'
     console.log(a,b)
 })
