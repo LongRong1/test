@@ -55,6 +55,14 @@
     text-align: center;
 }
 
+.ab button{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background: #000;
+    color: wheat;
+}
+
 .aaa button{
     width: 50px;
     padding: 5px;
