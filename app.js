@@ -18,6 +18,7 @@ cuoc.addEventListener('click',()=>{
     aaa.style.display = 'flex'
     ab.style.display = 'flex'
     cuoc.style.display = 'none'
+    ip.style.display = 'flex'
     // a1k.addEventListener('click',()=>{
     //     cuoc.innerText = a1k.value;
     // })
