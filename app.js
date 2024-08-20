@@ -17,6 +17,7 @@ let ip = document.getElementById('ip');
 cuoc.addEventListener('click',()=>{
     aaa.style.display = 'flex'
     ab.style.display = 'flex'
+    cuoc.style.display = 'none'
     // a1k.addEventListener('click',()=>{
     //     cuoc.innerText = a1k.value;
     // })
@@ -57,6 +58,7 @@ a500k.addEventListener('click',()=>{
 dat.addEventListener('click',()=>{
     aaa.style.display = ''
     ab.style.display = ''
+    cuoc.style.display = 'flex'
     let a = b
     b = 0
     ip.value = ''

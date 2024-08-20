@@ -14,20 +14,24 @@
 .bb{
     color: wheat;
     margin-bottom: 20px;
+    position: relative;
 }
 
 .bb button{
     background: #000;
     color: wheat;
-    padding: 10px 20px;
-    border-radius: 10px;
+    padding: 6px 20px;
+    border-radius: 5px;
     font-size: 14px;
     letter-spacing: 2px;
-    width: 80px;
-    height: 40px;
+    width: 115px;
     display: flex;
     align-items: center;
     justify-content: center;
+    transform: skewX(-20deg);
+    z-index: 2;
+    position: relative;
+    border: none;
 }
 
 .aaa{
@@ -45,6 +49,13 @@
     display: none;
     justify-content: center;
     align-items: center;
+    width: 100px;
+    padding: 5px;
+    background: #000;
+    color: wheat;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    text-align: center;
 }
 
 .aaa button{
@@ -65,4 +76,7 @@
     border-radius: 5px;
     text-align: center;
     transform: skewX(-20deg);
+    position: absolute;
+    top: 0;
+    z-index: 1;
 }
